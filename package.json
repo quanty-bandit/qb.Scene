@@ -1,0 +1,23 @@
+{
+  "name": "com.quanty-bandit.qb.scene",
+  "version": "1.0.0",
+  "displayName": "qb.Scene",
+  "description": "Scene loading management",
+  "unity": "6000.2",
+  "gitDependencies": {
+	"com.unity.addressables":"2.7.4",
+	"com.codewriter.triinspector": "https://github.com/codewriter-packages/Tri-Inspector.git",
+    "com.quanty-bandit.pattern": "https://github.com/quanty-bandit/qb.Pattern.git",
+    "com.quanty-bandit.events": "https://github.com/quanty-bandit/qb.Events.git"
+	
+  },
+  "keywords": [
+    "Scene",
+	"Loading"
+  ],
+  "author": {
+    "name": "quanty bandit",
+    "email": "pascal@quantybandit.com",
+    "url": "https://quantybandit.com"
+  }
+}
