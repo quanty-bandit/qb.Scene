@@ -11,6 +11,10 @@ using UnityEngine.SceneManagement;
 
 namespace qb.SceneManagement
 {
+    /// <summary>
+    /// Singleton manager for loading and unloading Unity scenes, supporting both built-in and addressable scenes, with
+    /// progress reporting and event channels.
+    /// </summary>
     [DeclareTabGroup("#1")]
     public class SceneLoader : MBSingleton<SceneLoader>
     {

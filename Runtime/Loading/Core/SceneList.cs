@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 using System.Collections;
-
 
 #if UNITY_EDITOR
 using TriInspector;
@@ -10,6 +8,10 @@ using UnityEditor;
 #endif
 namespace qb.SceneManagement
 {
+    /// <summary>
+    /// Represents a ScriptableObject asset that holds a list of scene entries for use in Unity projects, providing
+    /// indexed and named access as well as enumeration support.
+    /// </summary>
     [CreateAssetMenu(fileName = "SceneList", menuName = "qb/SceneList")]
     public class SceneList : ScriptableObject, IEnumerable
     {
@@ -110,8 +112,6 @@ namespace qb.SceneManagement
             }
             return TriValidationResult.Valid;
         }
-
-        
 
 #endif
         #endregion
