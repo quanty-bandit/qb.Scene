@@ -1,5 +1,5 @@
 {
-  "name": "com.quanty-bandit.qb.scene",
+  "name": "com.quanty-bandit.scene",
   "version": "1.0.0",
   "displayName": "qb.Scene",
   "description": "Scene loading management",
